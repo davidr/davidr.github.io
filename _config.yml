@@ -1,0 +1,36 @@
+title: Jekyll Newb
+description: Random flailings of a jekyll newbie
+author: David Ressman
+github: https://github.com/davidr
+about: I'm an mild-mannered hpc guy for a major metropolitan financial firm.
+disqus_shortname: davidressman
+google_analytics: UA-66618872-3
+
+enableTags: true
+tagarray: []
+
+social:
+    - icon: fa-twitter
+      link: "https://twitter.com/davidressman"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/ressman"
+
+share:
+  twitter_username: davidressman
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: Github
+      url: https://github.com/davidr
+
+url: "https://davidr.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
