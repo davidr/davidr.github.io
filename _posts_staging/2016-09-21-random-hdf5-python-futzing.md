@@ -2,7 +2,7 @@
 layout: post
 title:  "In which I learn about HDF5"
 date:   2016-09-21 23:14:20 -0500
-categories: [python, hdf5, h5py, mpi, HPC]
+categories: [python, hdf5, mpi, hpc]
 ---
 
 **Problem:**
