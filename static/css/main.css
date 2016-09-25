@@ -217,3 +217,122 @@ div.col-sm-3 img#about {
         margin-top: 30px;
     }
 }
+
+
+
+
+
+
+
+/**
+ * //////////////////////////////////
+ * Right aka content column formatting
+ * //////////////////////////////////
+ */
+div.cv-content {
+    border-top: 1px solid #E6E6E6;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+div.content pre {
+    background: #333333;
+    padding: 10px;
+    color: #FFF;
+    overflow-x: auto;
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size: 12px;
+    border: none;
+}
+
+div.content .highlight {
+	background: #333333;
+}
+
+ul#cv-list {
+    font-size: 14px;
+	list-style: none;
+	margin-left: 00px;
+	padding: 10px;
+	display: table;
+}
+
+ul#cv-list li:before {
+	display: table-cell;
+    content: "\00BB";
+}
+
+ul#cv-list li {
+	display: table-row;
+}
+
+span#cv-pub-journal {
+    font-style: italic;
+}
+
+div#cv h2 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-size: 22px;
+    font-variant: small-caps;
+}
+
+table#cv-position {
+    width: 100%;
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+
+table#cv-skill {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.progress {
+    position: relative;
+    margin-bottom: 0 !important;
+}
+
+
+div#cv h3 {
+    margin-top: 10px;
+	font-size: 16px;
+    font-weight: bold;
+}
+
+span#cv-date {
+    margin-top: 00px;
+	font-size: 16px;
+    font-weight: 400;
+}
+
+div#cv-summary {
+    margin-left: 10px;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+div#cv-accomplishments ul {
+	list-style: none;
+	margin-left: 20px;
+    font-size: 14px;
+	padding: 0;
+}
+
+div.right ul {
+	list-style: none;
+	margin-left: 0;
+	padding: 0;
+}
+
+div.right ul li {
+	margin-top: 5px;
+	margin-left: 0;
+	padding: 0;
+}
+
+div.right .post ul {
+	list-style: square;
+	margin-left: 15px;
+}

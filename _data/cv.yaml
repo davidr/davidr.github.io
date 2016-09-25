@@ -1,0 +1,151 @@
+career:
+    - position: Bedouin HPC Analyst/Team Lead, Quantitative Research Engineering
+      company:
+            name: Jump Trading
+            url: http://www.jumptrading.com
+      location: Chicago, IL USA
+      dates:
+            start: September, 2016
+            end: Present
+      summary: >
+          Traveling amongst internal teams by camel, helping optimize research workflow and
+          efficiency.
+      accomplishments:
+          - All accomplishments are subject to a nondisclosure agreement
+
+    - position: Grand Linux Poobah/Director of Production Engineering
+      company:
+            name: Jump Trading
+            url: http://www.jumptrading.com
+      location: Chicago, IL USA
+      dates:
+            start: October, 2013
+            end: September, 2016
+      summary: >
+          Led global team of 28 system administrators, programmers, quant researchers, and
+          analyists in Chicago, New York, London, and Singapore in all aspects of
+          production and research computing.
+      accomplishments:
+          - All accomplishments are subject to a nondisclosure agreement
+
+    - position: Manager, Research Computing and Quantitative Analysis Infrastructure
+      company:
+            name: Jump Trading
+            url: http://www.jumptrading.com
+      location: Chicago, IL USA
+      dates:
+            start: April, 2012
+            end: October, 2013
+      summary: >
+          Led global team of 8 system administrators, programmers, and analyists in
+          Chicago, New York, and London focusing on the firm's research computing
+          infrastructure.
+      accomplishments:
+          - All accomplishments are subject to a nondisclosure agreement
+
+    - position: High-Performance Computing Systems Administrator
+      company:
+            name: Jump Trading
+            url: http://www.jumptrading.com
+      location: Chicago, IL USA
+      dates:
+            start: May, 2010
+            end: April, 2012
+      summary: >
+          Designed, purchased, implemented, upgraded, and maintained world-class
+          High-Performance Computing infrastructure
+      accomplishments:
+          - All accomplishments are subject to a nondisclosure agreement
+
+    - position: High-Performance Computing Systems Administrator
+      company:
+            name: Leadership Computing Facility<br>Argonne National Laboratory
+            url: http://www.alcf.anl.gov
+      location: Lemont, IL USA
+      dates:
+            start: April, 2008
+            end: May, 2010
+      accomplishments:
+          - Responsible for 11-petabyte, 11,000-drive ultra-high performance storage system for Argonne’s Intrepid Blue Gene/P system, the world’s fastest unclassified supercomputer (in June 2008, at time of commissioning)
+          - Design, deployment, and ongoing maintenance of world’s largest GPFS and PVFS2 filesystems
+          - Worked with computational scientists tuning simulation code to make the most efficient use of the high performance resources available
+          - Worked closely with GPFS and PVFS filesystem developers to debug and solve problems with filesystem architecture only exhibited at extreme scale
+          - Worked closely with IBM engineers to design I/O system for next generation Blue Gene/Q supercomputers; lead Request for Proposal (RFP) process for $40 million 100-petabyte storage system upgrade to coincide with the arrival of the Mira Blue Gene/Q upgrade
+
+    - position: High-Performance Computing Systems Administrator
+      company:
+            name: Math and Computer Science Division<br>Argonne National Laboratory
+            url: http://www.mcs.anl.gov
+      location: Lemont, IL USA
+      dates:
+            start: November, 2006
+            end: April, 2008
+      accomplishments:
+          - Responsible for all support and management aspects of 250-node, 1000-core Top100 biophysical computing cluster, including, but not limited to scientific and system software installation, upgrades, benchmarking and debugging, and complete user support
+          - Led the purchase, installation, and administration of 128-core InfiniBand-interconnected nuclear energy simulation software development cluster
+          - Developed software library to bring common DataDirect Networks S2A storage system reporting and maintenance tasks into a common framework to eliminate reliance on vendor-supplied utilities
+
+
+skills:
+    - topic: Linux Distributions
+      specifics:
+          - name: Red Hat Enterprise Linux
+            level: 95
+          - name: Fedora
+            level: 85
+          - name: Ubuntu
+            level: 75
+    - topic: Programming Languages
+      specifics:
+          - name: Bash
+            level: 90
+          - name: Python
+            level: 85
+          - name: Go
+            level: 65
+          - name: C
+            level: 60
+    - topic: High-Performance Computing Concepts, Software, and Hardware
+      general: >
+          Proficiency with high-speed, low latency interconnects, including InfiniBand,
+          Myrinet MX10G, and 10/40 Gigabit Ethernet. Extensive experience with GPFS,
+          PVFS2, and Lustre filesystems, and DataDirect Networks SFA high-performance
+          storage systems.
+    - topic: Standard Linux/Unix Ecosystem Software
+      general: >
+          Extensive familiarity with a wide variety of Unix-based software, including SQL
+          databases, Internet mail servers, system backup software, HTTP and FTP servers,
+          software/package management systems (particularly RPM), and version control
+          systems. Extensive expertise with Unix system automation, focusing on
+          large-scale software distribution, system security monitoring, Puppet, Cfengine,
+          Saltstack, and Bcfg2.
+    - topic: Non-Technical Skills
+      general: >
+          large-scale project management, excellent written and verbal communication skills,
+          coordinating complicated technical and political processes between disparate
+          groups and institutions
+
+publications:
+    - title: Use of Cfengine for Automated Multi-Platform Software and Patch Distribution
+      authors: Ressman, D. & Valdes, J.
+      publication: Proceedings of the Fourteenth Systems Administration Conference (LISA XIV), 2000
+    - title: Lessons learned from moving Earth System Grid data sets over a 20 Gbps wide-area network
+      authors: Raj Kettimuthu et al.
+      publication: Proceedings of the ACM International Symposium on High Performance Distributed Computing, 2010
+
+
+education:
+    - institution: University of Chicago
+      location: Chicago, IL USA
+      url: https://www.uchicago.edu
+      program_of_study: Bachelor of Science candidate, double-major in Mathematics and Physics, third-year standing
+      dates:
+            start: September, 2004
+            end: January, 2009
+    - institution: St. John's College
+      location: Santa Fe, NM USA
+      url: https://www.sjc.edu/
+      program_of_study: Liberal Arts, Great Books, second-year standing
+      dates:
+            start: January, 2003
+            end: September, 2003

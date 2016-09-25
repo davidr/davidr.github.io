@@ -1,0 +1,103 @@
+---
+layout: default
+title: David Ressman Resume/CV
+---
+
+<div id="cv">
+    <h1>David Ressman</h1>
+
+    <h2>Professional Experience</h2>
+    {% for job in site.data.cv.career %}
+        <table id="cv-position">
+            <tr><td><h3>{{ job.position }}</h3></td>
+                <td style="float:right;"><h3>
+            {% if job.company.url %}
+                <a href="{{ job.company.url }}">{{ job.company.name }}</a>
+            {% else %}
+                {{ job.company.name }}
+            {% endif %}
+                </h3></td>
+            </td></tr>
+            <tr>
+                <td><span id="cv-date">{{ job.dates.start }}&ndash;{{ job.dates.end }}</span></td>
+                <td style="float:right;"><span id="cv-date">{{ job.location }}</span></td>
+            </tr>
+        </table>
+
+        <div id="cv-summary">
+        {{ job.summary }}
+        </div> <!-- cv-summary -->
+
+        <ul id="cv-list">
+        {% for accomplishment in job.accomplishments %}
+        <li>{{ accomplishment }}</li>
+        {% endfor %}
+        </ul> <!-- cv-accomplishments -->
+    {% endfor %} <!--- Job -->
+
+    <h2>Skills</h2>
+    {% for skill in site.data.cv.skills %}
+    <h3>{{ skill.topic }}</h3>
+
+    {% if skill.general %}
+    <div id="cv-summary">{{ skill.general }}</div>
+    {% endif %}
+
+    {% if skill.specifics %}
+    <table class='table' id='cv-skill'>
+    {% for spfc in skill.specifics %}
+    <tr>
+    <td width='25%'>{{ spfc.name }}</td>
+    <td>
+    	<div class='progress'>
+        	<div class="progress-bar" role="progressbar" style="width: {{ spfc.level }}%;">
+            </div>
+        </div>
+    </td>
+    <td width='10%'>{{ spfc.level }}/100</td>
+    </tr>
+    {% endfor %}
+    {% endif %}
+    </table>
+    {% endfor %}
+
+
+    {% if site.data.cv.publications %}
+    <h2>Publications</h2>
+    <ul id='cv-list'>
+    {% for pub in site.data.cv.publications %}
+        <li>
+            <span id='cv-pub-author'>{{ pub.authors }} </span>,
+            <span id='cv-pub-title'>&ldquo;{{ pub.title }}&rdquo; </span>
+            <span id='cv-pub-journal'>{{ pub.publication }}</span>
+        </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if site.data.cv.education %}
+    <h2>Education</h2>
+    {% for school in site.data.cv.education %}
+        <table id="cv-position">
+            {% if school.url %}
+            <tr><td><h3><a href="{{ school.url }}">{{ school.institution }}</a></h3></td>
+            {% else %}
+            <tr><td><h3>>{{ school.institution }}</h3></td>
+            {% endif %}
+                <td style="float:right;"><h3>
+                </h3></td>
+            </td></tr>
+            <tr>
+                <td><span id="cv-date">{{ school.dates.start }}&ndash;{{ school.dates.end }}</span></td>
+                <td style="float:right;"><span id="cv-date">{{ school.location }}</span></td>
+            </tr>
+        </table>
+
+        <div id="cv-summary">
+        {{ school.program_of_study }}
+        </div> <!-- cv-summary -->
+
+    {% endfor %}
+    {% endif %}
+
+</div> <!-- cv -->
