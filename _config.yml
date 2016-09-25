@@ -36,3 +36,4 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
+  - octopress-minify-html
